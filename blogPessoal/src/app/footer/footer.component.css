@@ -30,5 +30,6 @@ ul.social-network {
   }
 
   .corFundo {
-    background-image: linear-gradient(to right, rgb(55, 44, 160) , rgb(80, 108, 185), rgb(166, 179, 214));
-}
+    /* background-image: linear-gradient(to right, rgb(55, 44, 160) , rgb(80, 108, 185), rgb(166, 179, 214)); */
+    background-color: rgb(14, 14, 78);
+  }
