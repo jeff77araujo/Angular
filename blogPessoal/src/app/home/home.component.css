@@ -7,3 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.corFundo {
+    background-image: linear-gradient(to right, rgb(55, 44, 160) , rgb(80, 108, 185), rgb(166, 179, 214));
+}
