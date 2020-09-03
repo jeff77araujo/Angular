@@ -21,6 +21,9 @@ export class LoginComponent implements OnInit {
   }
 
   entrar() {
+    // this.userLogin.usuario = 'jeff@email.com'
+    // this.userLogin.senha = '123456'
+    console.log(this.userLogin)
     this.authService.logar(this.userLogin).subscribe((resp: UserLogin) => {
       this.userLogin = resp
       localStorage.setItem('token', this.userLogin.token)

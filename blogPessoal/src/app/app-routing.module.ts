@@ -6,6 +6,10 @@ import { PicturesComponent } from './pictures/pictures.component';
 import { LoginComponent } from './login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { PostTemaComponent } from './post-tema/post-tema.component';
+import { PutTemaComponent } from './put-tema/put-tema.component';
+import { PutPostagemComponent } from './put-postagem/put-postagem.component';
+import { DeleteTemaComponent } from './delete-tema/delete-tema.component';
+import { DeletePostagemComponent } from './delete-postagem/delete-postagem.component';
 
 
 const routes: Routes = [
@@ -15,7 +19,11 @@ const routes: Routes = [
   { path: 'fotos', component: PicturesComponent},
   { path: 'login', component: LoginComponent},
   { path: 'cadastro', component: CadastroComponent},
-  { path: 'cadastro-tema', component: PostTemaComponent}
+  { path: 'cadastro-tema', component: PostTemaComponent},
+  { path: 'editar-tema/:id', component: PutTemaComponent},
+  { path: 'editar-post/:id', component: PutPostagemComponent},
+  { path: 'delete-tema/:id', component: DeleteTemaComponent},
+  { path: 'delete-post/:id', component: DeletePostagemComponent}
 ];
 
 @NgModule({

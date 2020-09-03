@@ -16,6 +16,10 @@ import { PicturesComponent } from './pictures/pictures.component';
 import { LoginComponent } from './login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { PostTemaComponent } from './post-tema/post-tema.component';
+import { DeletePostagemComponent } from './delete-postagem/delete-postagem.component';
+import { DeleteTemaComponent } from './delete-tema/delete-tema.component';
+import { PutTemaComponent } from './put-tema/put-tema.component';
+import { PutPostagemComponent } from './put-postagem/put-postagem.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { PostTemaComponent } from './post-tema/post-tema.component';
     PicturesComponent,
     LoginComponent,
     CadastroComponent,
-    PostTemaComponent
+    PostTemaComponent,
+    DeletePostagemComponent,
+    DeleteTemaComponent,
+    PutTemaComponent,
+    PutPostagemComponent
   ],
   imports: [
     BrowserModule,
